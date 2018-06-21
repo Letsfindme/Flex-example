@@ -1,0 +1,29 @@
+
+.header, .footer{
+    min-height: 5em; 
+    background-color: lightslategrey;
+    text-align: center;
+    line-height: 5em;
+    vertical-align: middle;
+
+}
+
+.main{
+    margin: 4em 2em 4em 2em;
+    display: flex;
+    flex-direction: row;
+    min-height: 20em;
+    background-color: beige;
+    flex-wrap: wrap;
+    text-align: center;
+}
+img{
+    width: 15em;
+}
+
+.nav, .article, .aside{
+    padding: 2em;
+    margin: 1em;
+    flex: 1;
+    
+}
